@@ -1,9 +1,5 @@
 spring:
   application:
     name = clonecoding
-
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:0809/oy
-    username: root
-    password: mysql
+  profiles:
+    active: local
